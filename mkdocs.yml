@@ -1,0 +1,20 @@
+site_name: 'All about shapes'
+repo_url: 'https://github.com/zayd62/mkdocs-versioning-test'
+repo_name: 'zayd62/mkdocs-versioning-test'
+theme: 'material'
+edit_uri: ''
+plugins:
+  - search
+  - mkdocs-versioning
+markdown_extensions:
+  - admonition
+  - pymdownx.arithmatex
+  - pymdownx.details
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+extra_javascript:
+  - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
+extra:
+    version: '1.0.0'

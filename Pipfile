@@ -1,0 +1,15 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylama = "*"
+
+[packages]
+mkdocs = "*"
+mkdocs-material = "*"
+mkdocs-versioning = {editable = true,path = "/media/zayd/Common/Projects/mkdocs-versioning"}
+
+[requires]
+python_version = "3.7"
