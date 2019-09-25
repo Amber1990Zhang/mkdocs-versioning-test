@@ -5,7 +5,8 @@ theme: 'material'
 edit_uri: ''
 plugins:
   - search
-  - mkdocs-versioning
+  - mkdocs-versioning:
+      version: 2.0.0
 markdown_extensions:
   - admonition
   - pymdownx.arithmatex
@@ -16,9 +17,10 @@ markdown_extensions:
       permalink: true
 extra_javascript:
   - 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML'
-extra:
-    version: '1.0.0'
 nav:
   - Home: 'index.md'
   - Shapes:
       - Circle: 'circle.md'
+      - Triangle: 'triangle.md'
+      - Quadrilateral: 'quadrilateral.md'
+  - Version: '../'
